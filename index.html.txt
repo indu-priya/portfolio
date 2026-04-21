@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Indu Priya Portfolio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <h2>Indu Priya B</h2>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="hero" id="home">
+    <div class="hero-text">
+        <h1>Hello, I'm <span>Indu Priya B</span></h1>
+        <p>M.Tech Integrated Software Engineering Student</p>
+        <button onclick="showMessage()">Hire Me</button>
+    </div>
+
+    <div class="hero-image">
+        <img src="myphoto.jpg" alt="Profile Photo">
+    </div>
+</section>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>
+        Passionate about AI/ML, Software Development and building smart solutions.
+        Skilled in Python, Java, SQL and Web Development.
+    </p>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+
+    <div class="project-box">
+        <h3>House Price Prediction</h3>
+        <p>Machine learning model for predicting house prices.</p>
+    </div>
+
+    <div class="project-box">
+        <h3>Sales Data Analysis</h3>
+        <p>Analyzed business sales data using Python & Power BI.</p>
+    </div>
+
+    <div class="project-box">
+        <h3>AI Healthcare Chatbot</h3>
+        <p>Personalized smart healthcare recommendation system.</p>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <p>Email: indupriyab28@gmail.com</p>
+    <p>LinkedIn: Your Link</p>
+</section>
+
+<footer>
+    <p>© 2026 Indu Priya B | Portfolio</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
