@@ -202,11 +202,11 @@ header{
 
 .about-text{
   text-align: center;
-  font-size: 14px;        /* changed from 23px */
+  font-size: 10px;        /* changed from 23px */
   color: #555;
-  line-height: 1.4;
+  line-height: 1.0;
   margin-bottom: 30px;
-  max-width: 650px;       /* add this */
+  max-width: 550px;       /* add this */
   margin-left: auto;      /* add this */
   margin-right: auto;     /* add this */
 }
