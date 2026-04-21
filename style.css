@@ -142,6 +142,18 @@ header{
   display:flex;
   gap:28px;
   flex-wrap:wrap;
+  margin-top:10px;
+}
+
+.socials a{
+  color:#2563eb;
+  text-decoration:underline;
+  font-size:21px;
+  font-weight:500;
+}
+
+.socials a:hover{
+  color:#6d3cff;
 }
 
 .socials span{
